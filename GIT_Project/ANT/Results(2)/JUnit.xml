@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="GIT_Project/tests" tests="1" failures="1" skipped="0" hostname="Dell-Archimaheshwari" time="10.632" timestamp="Thu Jul 16 12:20:46 IST 2020">
+	<properties>
+		<property name="excludeCallableTestCases" value="true"/>
+		<property name="testEnvironment" value=""/>
+		<property name="pluginOutputLevel" value="WARNING"/>
+		<property name="projectPath" value=".."/>
+		<property name="salesforceMetadataCache" value="Reuse"/>
+		<property name="resultsPathDisposition" value="Increment"/>
+		<property name="testOutputLevel" value="WARNING"/>
+		<property name="webBrowserType" value="Google Chrome"/>
+		<property name="resultsPath" value="../ANT/Results"/>
+		<property name="webBrowserConfiguration" value="Full Screen"/>
+		<property name="projectCachePath" value="C:\Users\archi.maheshwari\git\GIT_demo\GIT_Project\ANT\..\.provarCaches"/>
+	</properties>
+	<testcase classname="tests/UI_Fill.testcase" name="UI_Fill.testcase" time="8.15">
+		<failure message="Execution failed"><![CDATA[The excel file doesn't exist. Please check file location & filename is correct.  Path: templates/Account_details.xlsx, Absolute Path: C:\Users\archi.maheshwari\git\GIT_demo\GIT_Project\templates\Account_details.xlsx.]]></failure>
+	</testcase>
+</testsuite>
