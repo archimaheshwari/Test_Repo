@@ -27,7 +27,7 @@
 				pluginOutputlevel="WARNING"
 				stopTestRunOnError="false"
 		>
-			<fileset id="testplan" dir="../plans/Demo_TP"></fileset>
+			<fileset id="testplan" dir="../plans/Demo_TP/tests"><include name="Test Case 1.testinstance"/></fileset>
 			<planFeature name="PDF" type="OUTPUT" enabled="true"/>
 			<planFeature name="PIECHART" type="OUTPUT" enabled="true"/>
 
