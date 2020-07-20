@@ -1,7 +1,27 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <testPlan>
-  <planSettings/>
+  <planSettings>
+    <planSetting name="browserProvider">
+      <value valueClass="string">Desktop:Full Screen</value>
+    </planSetting>
+    <planSetting name="webBrowser">
+      <value valueClass="string">Chrome</value>
+    </planSetting>
+  </planSettings>
   <planFeatures>
+    <planFeature enabled="true" name="PIECHART" type="OUTPUT">
+      <settings mutable="Mutable">
+        <namedValue name="enabled">
+          <value class="value" valueClass="boolean">true</value>
+        </namedValue>
+        <namedValue name="includeLegend">
+          <value class="value" valueClass="boolean">true</value>
+        </namedValue>
+        <namedValue name="artifactName">
+          <value class="value" valueClass="string">pieChart.png</value>
+        </namedValue>
+      </settings>
+    </planFeature>
     <planFeature enabled="true" name="PDF" type="OUTPUT">
       <settings mutable="Mutable">
         <namedValue name="enabled">
@@ -51,19 +71,6 @@
         </namedValue>
         <namedValue name="artifactName">
           <value class="value" valueClass="string">executionReport.pdf</value>
-        </namedValue>
-      </settings>
-    </planFeature>
-    <planFeature enabled="true" name="PIECHART" type="OUTPUT">
-      <settings mutable="Mutable">
-        <namedValue name="enabled">
-          <value class="value" valueClass="boolean">true</value>
-        </namedValue>
-        <namedValue name="includeLegend">
-          <value class="value" valueClass="boolean">true</value>
-        </namedValue>
-        <namedValue name="artifactName">
-          <value class="value" valueClass="string">pieChart.png</value>
         </namedValue>
       </settings>
     </planFeature>
