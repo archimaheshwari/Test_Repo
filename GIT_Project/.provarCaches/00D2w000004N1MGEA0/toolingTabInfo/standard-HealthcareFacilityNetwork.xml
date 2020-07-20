@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<toolingTabInfo>
+  <tabDefinition DurableId="HealthcareFacilityNetwork" IsAvailableInAloha="true" IsAvailableInLightning="true" Label="Healthcare Facility Networks" Name="standard-HealthcareFacilityNetwork" SobjectName="HealthcareFacilityNetwork" Url="https://ap16.salesforce.com/0bY/o"/>
+</toolingTabInfo>

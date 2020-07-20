@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<toolingTabInfo>
+  <tabDefinition DurableId="HealthcarePayerNetwork" IsAvailableInAloha="true" IsAvailableInLightning="true" Label="Healthcare Payer Networks" Name="standard-HealthcarePayerNetwork" SobjectName="HealthcarePayerNetwork" Url="https://ap16.salesforce.com/0bf/o"/>
+</toolingTabInfo>

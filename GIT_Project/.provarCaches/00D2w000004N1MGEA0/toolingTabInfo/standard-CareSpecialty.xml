@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<toolingTabInfo>
+  <tabDefinition DurableId="CareSpecialty" IsAvailableInAloha="true" IsAvailableInLightning="true" Label="Care Specialties" Name="standard-CareSpecialty" SobjectName="CareSpecialty" Url="https://ap16.salesforce.com/0bc/o"/>
+</toolingTabInfo>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<toolingTabInfo>
+  <tabDefinition DurableId="ProviderSearchSyncLog" IsAvailableInAloha="true" IsAvailableInLightning="true" Label="Provider Search Sync Logs" Name="standard-ProviderSearchSyncLog" SobjectName="ProviderSearchSyncLog" Url="https://ap16.salesforce.com/0hT/o"/>
+</toolingTabInfo>

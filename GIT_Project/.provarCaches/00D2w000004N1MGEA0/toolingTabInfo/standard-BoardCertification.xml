@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<toolingTabInfo>
+  <tabDefinition DurableId="BoardCertification" IsAvailableInAloha="true" IsAvailableInLightning="true" Label="Board Certifications" Name="standard-BoardCertification" SobjectName="BoardCertification" Url="https://ap16.salesforce.com/0YS/o"/>
+</toolingTabInfo>

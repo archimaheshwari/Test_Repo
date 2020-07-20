@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<toolingTabInfo>
+  <tabDefinition DurableId="CareProviderAdverseAction" IsAvailableInAloha="true" IsAvailableInLightning="true" Label="Care Provider Adverse Actions" Name="standard-CareProviderAdverseAction" SobjectName="CareProviderAdverseAction" Url="https://ap16.salesforce.com/0et/o"/>
+</toolingTabInfo>

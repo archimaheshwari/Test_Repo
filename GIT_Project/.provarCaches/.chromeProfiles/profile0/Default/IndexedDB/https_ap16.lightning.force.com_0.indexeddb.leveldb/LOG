@@ -1,0 +1,2 @@
+2020/07/20-10:14:18.787 6664 Reusing MANIFEST C:\Users\archi.maheshwari\git\GIT_demo\GIT_Project\.provarCaches\.chromeProfiles\profile0\Default\IndexedDB\https_ap16.lightning.force.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/07/20-10:14:20.376 4cc0 Manual compaction at level-0 from '\x00\x07\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x08\x00\x00\x00' @ 0 : 0; will stop at (end)

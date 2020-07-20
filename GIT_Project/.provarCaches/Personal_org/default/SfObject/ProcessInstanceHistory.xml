@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<sfObject label="Process Instance History" labelPlural="Process Instance History" n="ProcessInstanceHistory" s="" standardLabel="Approval History" t="Process Instance History">
+  <fields>
+    <sfField createable="false" editPermission="false" length="18" n="Id" t="Process Instance History ID" type="id" updateable="false"/>
+    <sfField createable="false" editPermission="false" n="IsPending" t="Is Pending" type="_boolean" updateable="false"/>
+    <sfField createable="false" editPermission="false" length="18" n="ProcessInstanceId" relationshipName="ProcessInstance" required="true" t="Process Instance ID" type="reference" updateable="false">
+      <referenceTos>
+        <string>ProcessInstance</string>
+      </referenceTos>
+    </sfField>
+    <sfField createable="false" editPermission="false" length="18" n="TargetObjectId" relationshipName="TargetObject" t="Target Object ID" type="reference" updateable="false">
+      <referenceTos>
+        <string>Account</string>
+        <string>Asset</string>
+        <string>AssetRelationship</string>
+        <string>AssignedResource</string>
+        <string>AuthorizationForm</string>
+        <string>AuthorizationFormConsent</string>
+        <string>AuthorizationFormDataUse</string>
+        <string>AuthorizationFormText</string>
+        <string>BuyerGroup</string>
+        <string>BuyerGroupMember</string>
+        <string>BuyerGroupPricebook</string>
+        <string>Campaign</string>
+        <string>Case</string>
+        <string>CommSubscription</string>
+        <string>CommSubscriptionChannelType</string>
+        <string>CommSubscriptionConsent</string>
+        <string>CommSubscriptionTiming</string>
+        <string>CommerceEntitlementBuyerGroup</string>
+        <string>CommerceEntitlementPolicy</string>
+        <string>CommerceEntitlementProduct</string>
+        <string>ConsumptionRate</string>
+        <string>ConsumptionSchedule</string>
+        <string>Contact</string>
+        <string>ContactPointAddress</string>
+        <string>ContactPointConsent</string>
+        <string>ContactPointEmail</string>
+        <string>ContactPointPhone</string>
+        <string>ContactPointTypeConsent</string>
+        <string>Contract</string>
+        <string>CreditMemo</string>
+        <string>CreditMemoLine</string>
+        <string>CustomObject__c</string>
+        <string>DataUseLegalBasis</string>
+        <string>DataUsePurpose</string>
+        <string>DelegatedAccount</string>
+        <string>DuplicateRecordItem</string>
+        <string>DuplicateRecordSet</string>
+        <string>ElectronicMediaGroup</string>
+        <string>EmailMessage</string>
+        <string>EngagementChannelType</string>
+        <string>ExternalEventMapping</string>
+        <string>Image</string>
+        <string>Invoice</string>
+        <string>InvoiceLine</string>
+        <string>Lead</string>
+        <string>MacroUsage</string>
+        <string>MessagingEndUser</string>
+        <string>MessagingSession</string>
+        <string>MyCustomObject__c</string>
+        <string>Opportunity</string>
+        <string>Order</string>
+        <string>OrgDeleteRequest</string>
+        <string>OrgMetricScanResult</string>
+        <string>OrgMetricScanSummary</string>
+        <string>PartyConsent</string>
+        <string>Product2</string>
+        <string>ProductCatalog</string>
+        <string>ProductCategory</string>
+        <string>ProductCategoryProduct</string>
+        <string>PromptAction</string>
+        <string>QuickTextUsage</string>
+        <string>ResourceAbsence</string>
+        <string>ResourcePreference</string>
+        <string>ServiceAppointment</string>
+        <string>ServiceResource</string>
+        <string>ServiceResourceSkill</string>
+        <string>ServiceTerritory</string>
+        <string>ServiceTerritoryMember</string>
+        <string>ServiceTerritoryWorkType</string>
+        <string>SkillRequirement</string>
+        <string>Solution</string>
+        <string>StreamingChannel</string>
+        <string>UserProvisioningRequest</string>
+        <string>WorkType</string>
+        <string>WorkTypeGroup</string>
+        <string>WorkTypeGroupMember</string>
+        <string>trailheadapp__Badge__c</string>
+        <string>trailheadapp__Debug_Log__c</string>
+        <string>trailheadapp__Trail__c</string>
+        <string>trailheadapp__Trailhead_User_Data__c</string>
+        <string>trailheadapp__Trailmix_Assignment__c</string>
+        <string>trailheadapp__Trailmix__c</string>
+        <string>trailheadapp__User_Badge__c</string>
+        <string>trailheadapp__User_Trailmix__c</string>
+      </referenceTos>
+    </sfField>
+    <sfField createable="false" editPermission="false" length="40" n="StepStatus" restrictedPicklist="true" t="Status" type="picklist" updateable="false">
+      <picklistEntryIds>1,2,3,4,5,6,7,8,9</picklistEntryIds>
+      <picklistEntries>
+        <sfPLE id="1" n="Approved" s=""/>
+        <sfPLE id="2" n="Rejected" s=""/>
+        <sfPLE id="3" n="Removed" s="" t="Recalled"/>
+        <sfPLE id="4" n="Fault" s=""/>
+        <sfPLE id="5" n="Pending" s=""/>
+        <sfPLE id="6" n="Held" s="" t="Hold"/>
+        <sfPLE id="7" n="Reassigned" s=""/>
+        <sfPLE id="8" n="Started" s="" t="Submitted"/>
+        <sfPLE id="9" n="NoResponse" s="" t="No Response"/>
+      </picklistEntries>
+    </sfField>
+    <sfField createable="false" editPermission="false" length="18" n="ProcessNodeId" relationshipName="ProcessNode" t="Process Node ID" type="reference" updateable="false">
+      <referenceTos>
+        <string>ProcessNode</string>
+      </referenceTos>
+    </sfField>
+    <sfField createable="false" editPermission="false" length="18" n="OriginalActorId" relationshipName="OriginalActor" required="true" t="Assigned To" type="reference" updateable="false">
+      <referenceTos>
+        <string>Group</string>
+        <string>User</string>
+      </referenceTos>
+    </sfField>
+    <sfField createable="false" editPermission="false" length="18" n="ActorId" relationshipName="Actor" required="true" t="Actual Approver" type="reference" updateable="false">
+      <referenceTos>
+        <string>Group</string>
+        <string>User</string>
+      </referenceTos>
+    </sfField>
+    <sfField createable="false" digits="9" editPermission="false" n="RemindersSent" type="_int" updateable="false"/>
+    <sfField createable="false" editPermission="false" n="ElapsedTimeInDays" precision="18" t="Elapsed Time (Days)" type="_double" updateable="false"/>
+    <sfField createable="false" editPermission="false" n="ElapsedTimeInHours" precision="7" scale="2" t="Elapsed Time in Hours" type="_double" updateable="false"/>
+    <sfField createable="false" editPermission="false" n="ElapsedTimeInMinutes" precision="8" t="Elapsed Time in Minutes" type="_double" updateable="false"/>
+    <sfField createable="false" editPermission="false" length="4000" n="Comments" updateable="false"/>
+    <sfField createable="false" editPermission="false" n="IsDeleted" t="Deleted" type="_boolean" updateable="false"/>
+    <sfField createable="false" editPermission="false" n="CreatedDate" t="Date" type="datetime" updateable="false"/>
+    <sfField createable="false" editPermission="false" length="18" n="CreatedById" relationshipName="CreatedBy" t="User" type="reference" updateable="false">
+      <referenceTos>
+        <string>User</string>
+      </referenceTos>
+    </sfField>
+    <sfField createable="false" editPermission="false" n="SystemModstamp" t="System Modstamp" type="datetime" updateable="false"/>
+  </fields>
+  <childRelationships/>
+  <recordTypes/>
+  <standardActions>
+    <sfActionLink lightningActionName="MassChangeOwner" massAction="true" modes="View List all_related_lists" n="ChangeOwnerOne" t="Change Owner"/>
+    <sfActionLink modes="View ProcessSteps" n="ShowMore" t="Show More"/>
+    <sfActionLink modes="View ProcessSteps" n="GoToList" t="Go To List"/>
+    <sfActionLink modes="RelatedList" n="PrevPage" t="Previous Page"/>
+    <sfActionLink modes="RelatedList" n="NextPage" t="Next Page"/>
+    <sfActionLink modes="ObjectHome" n="List" requiresRow="true"/>
+    <sfActionLink modes="Edit New Clone" n="save" requiresRow="true" t="Save"/>
+    <sfActionLink modes="Edit New Clone" n="save_new" requiresRow="true" t="Save and New"/>
+    <sfActionLink modes="Edit New Clone" n="cancel" requiresRow="true" t="Cancel"/>
+    <sfActionLink afterWaitUrl="ui:wait:timed?seconds=10" modes="View" n="SaveEdit" t="Save"/>
+    <sfActionLink modes="View" n="CancelEdit" t="Cancel"/>
+    <sfActionLink massAction="true" modes="View List" n="ChangeRecordType" t="Change Record Type"/>
+    <sfActionLink modes="View" n="email" t="Send an Email"/>
+    <sfActionLink modes="View" n="Share"/>
+    <sfActionLink modes="QuickAction" n="publishersharebutton" t="Create"/>
+    <sfActionLink modes="ObjectHome List" n="Sort"/>
+    <sfActionLink modes="ObjectHome List" n="Filter"/>
+    <sfActionLink modes="ObjectHome View" n="Search"/>
+    <sfActionLink modes="ObjectHome List" n="Import"/>
+    <sfActionLink modes="View" n="PrintableView" t="Printable View"/>
+    <sfActionLink n="ObjectHome" requiresRow="true" t="Home"/>
+    <sfActionLink locator="//td[contains(@class, 'pbButton')]/input[@name='piRemove']" modes="all_related_lists" n="recallApprovalRequest" t="Recall Approval Request"/>
+    <sfActionLink locator="td[contains(@class, 'actionColumn')]/a[contains(@href, '/04i') or contains(@href, '%2F04i')]" modes="all_related_lists" n="reassign" requiresRow="true" t="Reassign"/>
+    <sfActionLink locator="td[contains(@class, 'actionColumn')]/a[contains(@href, '/p/process') or contains(@href, '%2Fp%2Fprocess')]" modes="all_related_lists" n="apprej" requiresRow="true" t="Approve / Reject"/>
+    <sfActionLink modes="all_related_lists" n="piSubmit" t="Submit for Approval"/>
+    <sfActionLink lightningActionName="ApprovalProcessRecall" lightningLabel="Recall" modes="all_related_lists" n="piRemove" t="Recall from Approval"/>
+    <sfActionLink modes="all_related_lists" n="ApprovalProcessReject" t="Reject"/>
+    <sfActionLink modes="all_related_lists" n="ApprovalProcessApprove" t="Approve"/>
+    <sfActionLink modes="all_related_lists" n="ApprovalProcessReassign" t="Reassign"/>
+    <sfActionLink modes="ObjectHome List" n="New"/>
+  </standardActions>
+  <weblinks/>
+</sfObject>

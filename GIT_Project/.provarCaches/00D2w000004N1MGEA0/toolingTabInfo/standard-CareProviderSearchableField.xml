@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<toolingTabInfo>
+  <tabDefinition DurableId="CareProviderSearchableField" IsAvailableInAloha="true" IsAvailableInLightning="true" Label="Care Provider Searchable Field" Name="standard-CareProviderSearchableField" SobjectName="CareProviderSearchableField" Url="https://ap16.salesforce.com/0d0/o"/>
+</toolingTabInfo>

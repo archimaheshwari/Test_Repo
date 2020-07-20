@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<toolingTabInfo>
+  <tabDefinition DurableId="HealthcareProviderTaxonomy" IsAvailableInAloha="true" IsAvailableInLightning="true" Label="Healthcare Provider Taxonomies" Name="standard-HealthcareProviderTaxonomy" SobjectName="HealthcareProviderTaxonomy" Url="https://ap16.salesforce.com/0bP/o"/>
+</toolingTabInfo>

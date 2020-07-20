@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<toolingTabInfo>
+  <tabDefinition DurableId="CareRegisteredDevice" IsAvailableInAloha="true" IsAvailableInLightning="true" Label="Care Registered Devices" Name="standard-CareRegisteredDevice" SobjectName="CareRegisteredDevice" Url="https://ap16.salesforce.com/0hB/o"/>
+</toolingTabInfo>

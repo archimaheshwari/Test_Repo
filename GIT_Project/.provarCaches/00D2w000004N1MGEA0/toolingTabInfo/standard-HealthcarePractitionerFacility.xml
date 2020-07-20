@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<toolingTabInfo>
+  <tabDefinition DurableId="HealthcarePractitionerFacility" IsAvailableInAloha="true" IsAvailableInLightning="true" Label="Healthcare Practitioner Facilities" Name="standard-HealthcarePractitionerFacility" SobjectName="HealthcarePractitionerFacility" Url="https://ap16.salesforce.com/0bS/o"/>
+</toolingTabInfo>
